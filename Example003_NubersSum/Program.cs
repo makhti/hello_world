@@ -1,5 +1,7 @@
-﻿int numbera = 385469922;
-int numberb = 887545882;
+﻿int numbera = new Random().Next(1, 85);
+Console.WriteLine(numbera);
+int numberb = new Random().Next(1, 85);
+Console.WriteLine(numberb);
 int result = numbera + numberb;
 Console.WriteLine(result);
 //Console.Write(username);
